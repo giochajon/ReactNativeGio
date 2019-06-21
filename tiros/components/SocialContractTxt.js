@@ -33,13 +33,11 @@ class SocilaContractTxt extends Component {
 
   render() {
  return(
-  <ScrollView style={{marginLeft: 10, marginRight: 10, flexDirection: 'column', backgroundColor:"#e3eed7"}}>
 
-<Image
-  source={require('./img/socialContactBanner.png')}
-  style={{ marginTop: 10, width: 300, height: 45 }}
-/>
-
+  <ScrollView style={{flexDirection: 'column', backgroundColor:"white"}}>
+  
+  <Text style={{marginTop: 30, fontWeight: 'bold'}}>RAINFOREST SOCIAL CONTRACT</Text>
+  
   <Text style={{marginTop: 10, fontSize: 10}}>I am joining the Alberta community of people sharing a common faith in continuously growing the CULTURE of innovation and
 entrepreneurship. We are an inclusive, silo-busting, sector agnostic, all industry, open source, ego shrinking, ecosystem building,
 entrepreneur focused, wide open, social barrier smashing community. </Text>
@@ -138,7 +136,7 @@ member of the Rainforest community.
 
 
 
-  <Button buttonStyle={{backgroundColor:"rgb(53, 136, 58)" }} titleStyle ={{ color:"#e3eed7"}}
+  <Button style={{ backgroundColor:"#35883a"}}
   title="I agree"
   type="outline"
   onPress={this.pressButtonAction}
